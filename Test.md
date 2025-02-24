@@ -1,169 +1,149 @@
 # React Squad Test
 
 ## Issue #1
-
-Timestamp - 0:00
-Position - The first card inside the dashboard section
-Problem - The Total licenses card says N/A
-Suggestion - This should say 0 if the total licenses are truly 'not available' or if the endpoint is returning an undefined or null when being queried
+- **Timestamp:** 0:00  
+- **Position:** The first card inside the dashboard section  
+- **Problem:** The "Total licenses" card says N/A  
+- **Suggestion:** This should say `0` if the total licenses are truly 'not available' or if the endpoint is returning an `undefined` or `null` value when queried.  
 
 ## Issue #2
-
-Timestamp - 0:00
-Position - The whole screen
-Problem - The cards are not properly arranged
-Suggestion - We could flex those cards or align them in a grid so that they either take up the full width of the space they contain or we split it in a 3 x 3 grid so that the space is evenly used
+- **Timestamp:** 0:00  
+- **Position:** The whole screen  
+- **Problem:** The cards are not properly arranged  
+- **Suggestion:** Use `flexbox` or a `grid` layout to ensure the cards take up the full width of their container or a `3x3 grid` for even spacing.  
 
 ## Issue #3
-
-Timestamp - 0:00
-Position - The buttons on the cards on the whole screen
-Problem - The buttons are all colored white
-Suggestion - We could assign colors to the buttons so that they are more distinct and stand out when being looked at. That way users can easily see that it can be clicked.
+- **Timestamp:** 0:00  
+- **Position:** The buttons on the cards across the whole screen  
+- **Problem:** The buttons are all white  
+- **Suggestion:** Assign distinct colors to the buttons so they stand out and are easily recognizable as clickable elements.  
 
 ## Issue #4
-
-Timestamp - 0:00
-Position - The feeds section at the bottom right on the dashboard
-Problem - The feeds is being stuck on the same page as the dashboard.
-Suggestion - My current assumption is that the feeds would represent activities currently happening and based on user experience that may be jarring to see on the same page as the dashboard if anything. I would probably have advised that either it comes underneath the enter dashboard cards or it has its own route so that we can have seperation of concerns.
+- **Timestamp:** 0:00  
+- **Position:** The feeds section (bottom right of the dashboard)  
+- **Problem:** The feeds section is stuck on the same page as the dashboard  
+- **Suggestion:** Consider moving the feeds section below the dashboard cards or placing it on a separate route for better separation of concerns.  
 
 ## Issue #5
-
-Timestamp - 0:00
-Position - The left sidebar
-Problem - Having the entire content on the screen makes the user interface look bland and boring
-Suggestion - Perhaps having this section in some sort of vibrant color would draw interest to it and enable the user to actually know it exists. With the current white color, it sort of blends out of the eye view when being looked at.
+- **Timestamp:** 0:00  
+- **Position:** The left sidebar  
+- **Problem:** The user interface looks bland due to the white sidebar  
+- **Suggestion:** Add a vibrant color to the sidebar to make it stand out and improve UI appeal.  
 
 ## Issue #6
-
-Timestamp - 0:05
-Position - The cards on the screen
-Problem - The cards don't have a hover effect.
-Suggestion - Cards should have an effect when hovered on so that the user can know when they have hovered over an item that can be clicked on.
+- **Timestamp:** 0:05  
+- **Position:** The cards on the screen  
+- **Problem:** The cards lack a hover effect  
+- **Suggestion:** Implement a hover effect to indicate that cards are interactive.  
 
 ## Issue #7
-
-Timestamp - 0:11
-Position - The top of the content section
-Problem - The title is inconsistent with the title text size on the dashboard. The sizes don't match.
-Suggestion - It would be better to maintain that size maybe a reusable component would help here. So either we use a larger text or a smaller text (I would prefer a larger one so that it commands attention when being viewed)
+- **Timestamp:** 0:11  
+- **Position:** The top of the content section  
+- **Problem:** Title text size is inconsistent with the dashboard titles  
+- **Suggestion:** Use a reusable component for title text and ensure consistency, preferably with a larger font size.  
 
 ## Issue #8
-
-Timestamp - 0:07
-Position - The whole right section
-Problem - The right section seems to be being built on the client side and fetching that data on page load.
-Suggestion - For get endpoints, we can delegate fetching of the information using serverside rendering.
+- **Timestamp:** 0:07  
+- **Position:** The whole right section  
+- **Problem:** The right section fetches data on the client side  
+- **Suggestion:** Use **server-side rendering** for `GET` requests to optimize performance.  
 
 ## Issue #9
-Timestamp - 0:11
-Position - The top bar
-Problem - The dropdown location seems unrealistic. There is an expanse of space on the top right where this could have been placed. That way it would have done two things - achieved visual balance and also not blocked the view of the sidebar menu.
+- **Timestamp:** 0:11  
+- **Position:** The top bar  
+- **Problem:** Dropdown placement is unrealistic  
+- **Suggestion:** Move the dropdown to the **top-right** to maintain visual balance and avoid obstructing the sidebar menu.  
 
 ## Issue #10
-
-Timestamp - 0:28
-Position - The top of the content section
-Problem - The title is inconsistent with the title text size on the dashboard. The sizes don't match.
-Suggestion - It would be better to maintain that size maybe a reusable component would help here. So either we use a larger text or a smaller text (I would prefer a larger one so that it commands attention when being viewed)
+- **Timestamp:** 0:28  
+- **Position:** The top of the content section  
+- **Problem:** Title text size is inconsistent with the dashboard  
+- **Suggestion:** Maintain a consistent font size across pages using a reusable title component.  
 
 ## Issue #11
-
-Timestamp - 0:28
-Position - The top bar text saying Projects
-Problem - Don't understand what that text means. Can't tell if it means the content is showing projects or if it means the dropdown is showing projects although the latter seems most likely
-Suggestion - If the latter stated above is the case, then let's move it to the top right as suggested. That way it makes more sense when grouped together.
+- **Timestamp:** 0:28  
+- **Position:** The top bar text ("Projects")  
+- **Problem:** The meaning of "Projects" is unclear  
+- **Suggestion:** If it refers to the dropdown, move it to the **top-right** for clarity.  
 
 ## Issue #12
-
-Timestamp - 0:28
-Position - The top of the content section
-Problem - The title is inconsistent with the title text size on the dashboard. The sizes don't match.
-Suggestion - It would be better to maintain that size maybe a reusable component would help here. So either we use a larger text or a smaller text (I would prefer a larger one so that it commands attention when being viewed)
+- **Timestamp:** 0:28  
+- **Position:** The top of the content section  
+- **Problem:** Title text size is inconsistent with the dashboard  
+- **Suggestion:** Use a consistent and larger font size for visibility.  
 
 ## Issue #13
-
-Timestamp - 0:54
-Position - The modal for edit project
-Problem - Description input field title says "description"
-Suggestion - The actual text should read "Description" not lowercase letters all through
+- **Timestamp:** 0:54  
+- **Position:** Edit Project modal  
+- **Problem:** "description" input field label is lowercase  
+- **Suggestion:** Change to "Description" with proper capitalization.  
 
 ## Issue #14
-
-Timestamp - 0:54
-Position - The modal for edit project
-Problem - The start date shows the initial date as an ISO Timestamp
-Suggestion - Start date should show a user readable date so that users can understand what they are looking at
+- **Timestamp:** 0:54  
+- **Position:** Edit Project modal  
+- **Problem:** Start date is displayed as an ISO Timestamp  
+- **Suggestion:** Format the start date to a **human-readable format**.  
 
 ## Issue #15
-
-Timestamp - 0:54
-Position - The modal for edit project
-Problem - The end date shows the initial date as an ISO Timestamp
-Suggestion - End date should show a user readable date so that users can understand what they are looking at
+- **Timestamp:** 0:54  
+- **Position:** Edit Project modal  
+- **Problem:** End date is displayed as an ISO Timestamp  
+- **Suggestion:** Format the end date to a **human-readable format**.  
 
 ## Issue #16
-
-Timestamp - 1:08
-Position - The list section on the projects page
-Problem - The timeline dates are represented weirdly.
-Suggestion - 
+- **Timestamp:** 1:08  
+- **Position:** The list section on the projects page  
+- **Problem:** The timeline dates are displayed in a weird format  
+- **Suggestion:** Ensure a consistent and readable date format.  
 
 ## Issue #17
-
-Timestamp - 0:56
-Position - Edit project card
-Problem - No label on the field that has "Free" as its auto selected value in the select input
-Suggestion - A label should be provided here so the user knows exactly what this field is for
+- **Timestamp:** 0:56  
+- **Position:** Edit Project card  
+- **Problem:** A select input field has "Free" as an auto-selected value but no label  
+- **Suggestion:** Add a label to indicate what the field represents.  
 
 ## Issue #18
-
-Timestamp - 1:07
-Position - Top right on projects table
-Problem - The status field on the table shows "status" as lowercase letters
-Suggestion - The status field should be written as "Status"
+- **Timestamp:** 1:07  
+- **Position:** The top-right section of the projects table  
+- **Problem:** "status" field is in lowercase  
+- **Suggestion:** Capitalize it to "Status".  
 
 ## Issue #19
-
-Timestamp - 1:10
-Position - top pane on single project view
-Problem - The single project view is not carrying the title/name of the project being viewed
-Suggestion - The project name should be visible so users can know what project they are currently on
+- **Timestamp:** 1:10  
+- **Position:** Top pane on the single project view  
+- **Problem:** The project name is missing  
+- **Suggestion:** Display the project name so users know which project they are viewing.  
 
 ## Issue #20
-
-Timestamp - 1:13
-Position - Device pane in single project
-Problem - Design consistency for "Remove Device" action
-Suggestion - To ensure design consistency, it might be better to replace this text with a cancel or "X" button so that it matches up with other page list actions
+- **Timestamp:** 1:13  
+- **Position:** Device pane in single project view  
+- **Problem:** "Remove Device" action lacks design consistency  
+- **Suggestion:** Replace with a **cancel (X) button** to match other UI elements.  
 
 ## Issue #21
-
-Timestamp - 1:17
-Postion - Whole list component
-Problem - The texts are not properly aligned to the left
-Suggestion - The texts on the page look a bit titled from the left when the point of reference is the table title as though they have been padded by the left
+- **Timestamp:** 1:17  
+- **Position:** Whole list component  
+- **Problem:** Texts are misaligned  
+- **Suggestion:** Align texts properly with the table title.  
 
 ## Issue #22
-
-Timestamp - 1:18
-Position - content section of the entire layout
-Problem - There seems to be a delay in loading certain visual elements that is not handled correctly
-Suggestion - It's not exactly clear if the items being loaded into those cards are images that are taking time to load or whether the image links are gotten from an endpoint. In the former case, what we can try is to delegate a fallback image to display while the browser is still fetching the images. In the latter case, we can try to load via the server side rendering available to use in next js and combine with the previously mentioned solution to ensure that there is no break in transmission for the user.
+- **Timestamp:** 1:18  
+- **Position:** Content section of the entire layout  
+- **Problem:** Delayed loading of certain visual elements  
+- **Suggestion:**  
+  - Use **fallback images** while images are being fetched.  
+  - If fetching from an API, consider **server-side rendering**.  
 
 ## Issue #23
-
-Timestamp - 1:19
-Position - The title on the cards being displayed on the content section in the entire layout
-Problem - The title seems to be too close to the images being rendered
-Suggestion - We may try to add a layer of spacing so the text can be visibly seperated from the image on top of it.
+- **Timestamp:** 1:19  
+- **Position:** Titles on the cards in the content section  
+- **Problem:** Titles are too close to the images  
+- **Suggestion:** Add spacing between the title and images.  
 
 ## Issue #24
-
-Timestamp - 1:19
-Position - The cards on the content section in the entire layout
-Problem - The card seems to have a static size but the images do not
-Suggestion - The images should be wrapped to take up a certain size of the entire card space and set to respect those dimensions so they don't warp the sizing restrictions for other cards
-
-
+- **Timestamp:** 1:19  
+- **Position:** Cards in the content section  
+- **Problem:** Cards have a static size, but images do not  
+- **Suggestion:**  
+  - Ensure images **maintain a fixed aspect ratio** within the card.  
+  - Prevent images from distorting the card layout.  
