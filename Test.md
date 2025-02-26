@@ -147,3 +147,70 @@
 - **Suggestion:**  
   - Ensure images **maintain a fixed aspect ratio** within the card.  
   - Prevent images from distorting the card layout.  
+
+## Issue #25
+- **Timestamp:** 1:24
+- **Position:** Page title at the top
+- **Problem:** The title now suddenly has a roughly big size as opposed to the previous small sizes used within each page in this project
+- **Suggestion:** Standardization is necessary so as to ensure consistency
+
+## Issue #26
+- **Timestamp:** 1:24
+- **Position:** Select date section on same page as above
+- **Problem:** The select date seems to be crucial in filtering out the results yet the description showed on the page does not show what results are being shown per time
+- **Suggestion:** When results are filtered, they should say something along the lines of "Filtering results within - {date_ranges}". Also shouldn't the date be on the right hand side and on page load be auto selected to a period. That way the page looks full when opened for the first time.
+
+## Issue #27
+- **Timestamp:** 1:24
+- **Position:** Section underneath date section
+- **Problem:** This section shows that there are multiple sub sections yet the arrangement does not lead the eye of a user properly.
+- **Suggestion:** It might pose better results if we allow the user to see only sub sections of currently selected sections instead of seeing all sub sections at once and being overwhelmed with information. If one is not already used to this interface like this, it might pose a confusion.
+
+## Issue #28
+- **Timestamp:** 1:24
+- **Position:** Section underneath date section
+- **Problem:** This section has no proper labelling to explain what the left section shows or is supposed to speak to.
+- **Suggestion:** If we are looking at globally distributed nodes then i think this section should say globally distributed nodes. If we are looking at nodes by region, it should also say that.
+
+## Issue #29
+- **Timestamp:** 2:46
+- **Position:** Feeds section
+- **Problem:** This warning is incorrect grammar
+- **Suggestion:** It should read sample project "will" expire in 21 days
+
+## Issue #30
+- **Timestamp:** 3:42
+- **Position:** Assign device to Organization modal
+- **Problem:** This says assign device but shows you can select multiple devices to assign to the organization and also organization is using pascal case.
+- **Suggestion:** It should read Assign "devices" to "organization"
+
+## Issue #31
+- **Timestamp:** 4:22
+- **Position:** Heatmap section
+- **Problem:** The date has no label
+- **Suggestion:** Date should have had a label saying "Select date"
+
+## Issue #32
+- **Timestamp:** 4:22
+- **Position:** Heatmap section
+- **Problem:** The km range has no label
+- **Suggestion:** Date should have had a label saying "Select range"
+
+## Issue #33
+- **Timestamp:** 4:30
+- **Position:** Heatmap section
+- **Problem:** Loader inconsistency
+- **Suggestion:** On other pages, when a load is initiated, the loader is a spinner but here it is a text saying "Loading...". We should have consitency for loading data.
+
+## Issue #34
+- **Timestamp:** 5:08
+- **Position:** Pedestrian count week selector
+- **Problem:** Seems like the week count is 4 days and not 5 days
+- **Suggestion:** If the business requirement is the above, then I believe users should have a way of seeing that time period information cause a base user might be expecting something along the lines of 7 days
+
+## Issue #34
+- **Timestamp:** 5:22
+- **Position:** Pedestrian count week selector
+- **Problem:** Seems like the week count is actually not 4 days
+- **Suggestion:** Users should have a way of seeing that time period information cause a base user might be expecting something along the lines of 7 days so seeing as Week 1 and Week 2 have disparity, this needs to be addressed.
+
